@@ -96,30 +96,31 @@ The target customer segments for this platform include:
 - **Assessment**: **Must Have** - a refinded website **Nice to Have** – access to both movies and sports on the same page.
 
 ### Interview 6:
-- **Who was interviewed**: 
+- **Who was interviewed**: Person 1
 - **Date of Interview**: January 31, 2025
-- **Customer Segment**: 
+- **Customer Segment**: Sports Enthusiast
 - **Key Insights**:
-  - 
-  - 
+  - This person was very interested in the idea of a one stop shop app for sports movies and sports
+  - Live updates of the game and hihlight reals from the game
   
   **Representative Quotes**:
-  - 
+  - "I would like to see live update of the game and maybe highlights"
 
-- **Assessment**: **Nice to Have** – .
+- **Assessment**: **Nice to Have** – Live updates for the games.
 
 ### Interview 7:
-- **Who was interviewed**: 
+- **Who was interviewed**: Person 2
 - **Date of Interview**: January 31, 2025
-- **Customer Segment**: 
+- **Customer Segment**: Casual Viewer
 - **Key Insights**:
-  - 
-  - 
+  - Having a website that doesnt give information about where you can watch a game bothers people
+  - This person sees another tab that gives sport movie reviews as irrelevant
+  - This interviewee has alot of people he knows that would use this
   
   **Representative Quotes**:
-  - 
+  - "Yeah I know a bunch of people that would use it"
 
-- **Assessment**: **Nice to Have** – .
+- **Assessment**: **Nice to Have** – Maybe look at making it an app.
 
 ### Interview 8:
 - **Who was interviewed**: 
