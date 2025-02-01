@@ -122,18 +122,19 @@ The target customer segments for this platform include:
 
 - **Assessment**: **Nice to Have** – Maybe look at making it an app.
 
-### Interview 8:
-- **Who was interviewed**: 
+### Interview 8: 
+- **Who was interviewed**: Mitchell Person 1
 - **Date of Interview**: January 31, 2025
-- **Customer Segment**: 
+- **Customer Segment**: Sports Enthusiast
 - **Key Insights**:
-  -
-  -
+  - Make sure to add female sports on the app as many apps dont cover female sports
+  - Wants a community fan page area where everyone can communicate
+  - Stats comparison page would be nice
   
   **Representative Quotes**:
-  -
+  - "I would like a stat comparison page where it compares today's stats to past ones or even the opposing teams players
 
-- **Assessment**: **Nice to Have** – 
+- **Assessment**: **Must Have** - Female sports leagues, a community page **Nice to Have** – Stat comparison page
 
 ### Interview 9:
 - **Who was interviewed**: 
