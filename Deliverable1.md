@@ -137,17 +137,19 @@ The target customer segments for this platform include:
 - **Assessment**: **Must Have** - Female sports leagues, a community page **Nice to Have** – Stat comparison page
 
 ### Interview 9:
-- **Who was interviewed**: 
+- **Who was interviewed**: Nathan Edwards
 - **Date of Interview**: January 31, 2025
-- **Customer Segment**: 
+- **Customer Segment**: Sports Enthusiast
 - **Key Insights**:
-  - 
-  - 
+  - Having an app would help Nathan with his sports watching as he has missed many games due to lack of information about the broadcast station
+  - Nathan does enjoy sports movies but will never search for them only when they are recommended will he
+  - A website with detail on where the movies are and how to watch them
   
   **Representative Quotes**:
-  - 
+  - "Yes there are too many ads on websites like ESPN"
+  - "I have about 3-4 services I use to watch"
 
-- **Assessment**: **Nice to Have** – 
+- **Assessment**: **Must Have** - A movie recommender feature, details about the movie on the website **Nice to Have** – Little to no ads is ideal
   
 ---
 
