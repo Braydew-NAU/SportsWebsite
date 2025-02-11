@@ -3,10 +3,15 @@
 ## 1. Positioning
 
 ### **Problem Statement**
+The problem of inefficient access to sports game schedules and underpromotion of sports-related movies and shows affects sports fans. The impact of which is wasted time spent searching multiple websites for game schedules and broadcast channels and entertainment ratings.
 
 ### **Product Position Statement**
+For sports fans who want to easily find broadcasting information for games and ratings for sports movies and shows. GameFanHub is a sports entertainment platform that consolidates live game schedules and ratings for sports-related content into one site. Unlike other platforms like ESPN or IMDB, our product focus on combining both sports schedules and movie ratings to provide a one-stop solution for sports enthusiasts. 
 
 ### **Value Proposition and Customer Segment**
+**Value Proposition:** GameFanHub is a comprehensive sports entertainment platform that provides sports fans with up-to-date broadcasting information for sports games and ratings for sports movies, all in one place. 
+
+**Customer SegmentL:** Sports enthusiasts who follow live sports games and enjoy watching sports-related movies. 
 
 ---
 
