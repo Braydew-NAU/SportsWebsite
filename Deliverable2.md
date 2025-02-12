@@ -59,11 +59,26 @@ Here's a UML use case diagram for the app, including actors such as users and ad
 ## 7. User Stories
 
 **User Story 1:**
-- **As a** user,
-- **I want** to recieve task reminders before deadlines,
-- **So that** I never miss an important task.
+- **As a** big sports viewer and enjoyer,
+- **I want** to recieve reminders of when my favorite team is going to play,
+- **So that** I never miss a game of my team.
 - **Priority:** Medium
+- **Estimation:** 8 Hours
+
+**User Story 2:**
+- **As a** sports reporter,
+- **I want** to know what channel each team is going to play on,
+- **So that** I know what channel to tune into.
+- **Priority:** High
+- **Estimation:** 5 hours
+
+**User Story 3:**
+- **As an** avid sport movie lover,
+- **I want** to know what are the highest rated sport movies are,
+- **So that** I can enjoy a great sport movie for enjoyment.
+- **Priority:** Intermiadate
 - **Estimation:** 3 hours
+
 
 ---
 
