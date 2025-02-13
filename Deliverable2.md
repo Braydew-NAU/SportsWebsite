@@ -28,6 +28,12 @@ For sports fans who want to easily find broadcasting information for games and r
 
 ## 3. Functional Requirements (Features)
 
+- **User Management:** User registration and log in, also with the ability to f$
+
+- **Live Scores:** Match schedules and results with live score updates.
+
+- **Search:** Search through catalog of movies or players and teams.
+
 ---
 
 ## 4. Non-Functional Requirements
