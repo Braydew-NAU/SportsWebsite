@@ -42,7 +42,8 @@ For sports fans who want to easily find broadcasting information for games and r
 2. **Usability:**
 3. **Scalability:**
 4. **Availability:**
-
+5. **Compatability:**
+6. **Maintainability:**
 
 ---
 
