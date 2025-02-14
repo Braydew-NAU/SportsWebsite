@@ -17,12 +17,18 @@ For sports fans who want to easily find broadcasting information for games and r
 
 ## 2. Stakeholders 
 
-- **Users:**
-- **Clients:**
-- **Developers:**
-- **Product Managers:**
-- **Competitors:**
-- **Detractors:**
+- **Users: Sports Fans & Enthusiasts**
+	- General visitors of the website who can engage with the provided content
+- **Clients: Sponsors & Advertisers**
+	- Clients looking to advertise their products, they can provide funding by sponsorships and ads
+- **Developers: Web delevopers, UI designers**
+	- They will implement website features, optimize performance & ensure perfect user experience
+- **Product Managers: Individuals overseeing development of website**
+	- Work with developers and designers to use user feed back to adjust website accordingly
+- **Competitors: Other Sport Websites & Apps**
+	- Other Website/Apps who we compete with for audience engagement, ad revenue, etc...
+- **Detractors: Critics**
+	- Evaluate our website's credebility, accuracy & critique user experience
 
 ---
 
