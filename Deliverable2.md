@@ -49,9 +49,13 @@ For sports fans who want to easily find broadcasting information for games and r
 ## 5. Minimum Viable Product (MVP)
 
 **MVP Features:**
-
+	The features that the website will include schedules and broadcast information for live games, there will
+		also be live stats for every game. Sport movie & show's ratings and recommendations will also be
+		included in the website
 **How it will be tested:**
-
+	The first testing will be in its alpha release stage where the team and invited testers can verify website 
+		functionality. We will also eventually release a more stable version where we have users test the
+		website and provide more needed feedback.
 
 ---
 
