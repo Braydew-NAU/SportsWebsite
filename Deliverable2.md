@@ -34,15 +34,22 @@ For sports fans who want to easily find broadcasting information for games and r
 
 ## 3. Functional Requirements (Features)
 
+- **User Management:** User registration and log in, also with the ability to follow teams. 
+
+- **Live Scores:** Match schedules and results with live score updates.
+
+- **Search:** Search through catalog of movies or players and teams.
+
 ---
 
 ## 4. Non-Functional Requirements
 
-1. **Performance:**
-2. **Usability:**
-3. **Scalability:**
-4. **Availability:**
-
+1. **Performance:** The website should be able to respond within seconds and handle traffic. 
+2. **Usability:** The user should be able to easily navigate through the website. 
+3. **Scalability:** The website should be able to be scaled and screened differently depending on the size of the device. 
+4. **Availability:** The website should be able to be accessed almost all the time and on many devices. 
+5. **Compatability:** The website should be able to be accessed on many different browsers. 
+6. **Maintainability:** The website should be built in a way that it can easily be updated and maintained. 
 
 ---
 
