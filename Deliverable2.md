@@ -156,4 +156,5 @@ Here's the link to our GitHub Issue Tracker, where the user stories are register
 [GitHub Issue Tracker](link_to_issue_tracker)
 
 **Screenshot of Issue Tracker:**
-![Issue Tracker Screenshot](link_to_screenshot)
+![Issue Tracker Screenshot](https://github.com/user-attachments/assets/68e03110-36e1-4a0d-9b76-45af7bbfa74e)
+
