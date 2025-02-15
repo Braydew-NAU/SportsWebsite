@@ -153,7 +153,7 @@ Alternate Scenario:
 ## 8. Issue Tracker
 
 Here's the link to our GitHub Issue Tracker, where the user stories are registerd:
-[GitHub Issue Tracker](link_to_issue_tracker)
+[GitHub Issue Tracker](https://github.com/Braydew-NAU/SportsWebsite/issues)
 
 **Screenshot of Issue Tracker:**
 ![Issue Tracker Screenshot](https://github.com/user-attachments/assets/68e03110-36e1-4a0d-9b76-45af7bbfa74e)
