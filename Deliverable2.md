@@ -77,6 +77,53 @@ Live Updates Use Case Diagram: https://viewer.diagrams.net/?tags=%7B%7D&lightbox
 
 Search Use Case Diagram: https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&layers=1&nav=1&title=Search_use_diagram.drawio#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22zepeILybfBT9GAI3eL52%22%3E7Vtbc5s4FP41fqyHO%2FZj4sTdzqSznaadbR9lkLE2gFwhYnt%2F%2FUogYSHh2HWxqWfXDyk6iAN856bziY7cWbZ9T8B69RHHMB05VrwduQ8jx7En1pT9wyU7IbEsu5YkBMVCthc8o3%2BgnCikJYph0ZpIMU4pWreFEc5zGNGWDBCCN%2B1pS5y277oGCTQEzxFITelfKKarWjrxrb38D4iSlbwze8H6TAbkZCEoViDGG0XkPo7cGcGY1kfZdgZTjp7Epb5ufuBs82AE5vSUC5L5%2FZfp6%2Bc%2FC%2Fq4ix6eX%2FIfX9%2B%2FE1peQVqKFx45Qcr03S%2FYQcIPpGCJ2X3Ya9CdwCb4UWJ54l1RWe6OTbC99ba%2BTJyXip4hINGKzXhAICEgk4rZI9e62%2FdjYuUZnNatHQq3XL6iWcoENjsEKUpydhwxOCBhgldIKGKGvBMnMhTH%2FPL7zQpR%2BLwGEde1YX7LZASXeQw5UlZzO64Abg%2BibTc2ZN4PcQYp2bEp4gLPFpcIxw%2BFF2z2ThQI0UrxH1fIgHDbpFG8tyw7EMb9CUO7HYbWMG1j0IWSAjfBFFCEObDTniCbhmPHb4Fm%2B3YjUoGbhGPfxC5o4r5v8DwDvK8F8zEdQBbha35YZuldRLHqhE9gAdNPuEACswWmFGcdXkqxBjQuaYpyOGvyW09oS%2B8TUPuO6aBuh4MGl3JQ38D4C%2BQ5wvoIs8Wtgx1ONbTtYGz69VXxDgy8n3CCcgNnporV2kN5U8GuB5gaBGT8d2RN2%2BlAaXIplMLjaRPm8R1faLBRjnOop0k1pzIYyO4bH4yt0JOC75UgdKZS8LBV5z%2Fs1NEnSBB7NV7hauEW0VqjL0bflTN7TXywUwa6nvq1YGyshjTbsVfHJYng8WxJAUkgPeaBpi8otvY7TC1lBKasAL22H7fL%2FuIOnzCq1i%2FSN622q3mW5kL1a4qr1GWVrshvK3J9TVGNg6Gocsfmtc%2F30InhobMURS9MxHIfs5ZcdC0A4Q%2BVx%2BxvijGfUK65maosO08hSJgCZ16sMaG%2FVRZoTDNYFpheKAu0M4B%2FLP5FqNtqoI9d7XcLkT8ZNPK1gPX1Entq5DuWXtSvG%2FnydopbzsErJiw%2Bzbi2MA%2F%2FSKQGijncgFaZIQEZHDTg3VAD0u0I%2BK7F0cUC3jb74g%2FZOoUZrBwgwjGUKKI8SstYIl40kBcyl7IDa1mhv1nBXBoBxlLBgqA8kQPKXo%2BMBC0xpE18fSnmddjE67BJk5n7N4pzPA0rIKS8C7gH0UtSpd8ZTnmTwCa5y%2BrHphQsQqmWtivZHPFHq9JjNRa8VFDl5CbRRykoChTVQnGJXY%2BUC%2F6GlO7EGJTMyqzNIHSFE5yzVgXzFqS6qqAEvzQkE5fEoFhVVcMWLIvQYnuHa4qt1hT7xIpijU5dOvZYLGT66qFadDEpQT%2FVwtOTvO7ep1YLT2u4Pb3sXLpamAzQh6W6QER1oir5CvHW2DY3aBNH3sTMVlel22yTzmjozxzT20W6IeZlPAyOtElk%2FF8V9KrA2oSwVRms8TS8Gt%2FQZ9EIb6FoOHqLoXMCpxYNV4s2b3rlomHyX59hTRBYa4IXbEU86Cq12VwT%2BASuNbaUn2OuWa9KHDhmi2bi9RPMQScD4L8ZfEoO8NsZ4Cjf0BX%2FQ8SyfzSWL0gXeLLASBeb%2BucuADVFnqbowrHsmD3tU80DAlrBJJrVW1uR%2BPreit%2BxY3jNFYmM8b7pwvNaO76BqmYL%2B%2B1scVmC0D8x4u0DJr9OyAd6q6YTe6eGfKiVb%2FfKPZ%2FT0fMdoLFeIOS7AUtBIPJesNo%2FAFHEvHHYDQHf0%2BzRsVd95bpufhFgIPSfbzraDccZVNTbqarHtCTj5HhesroddRguKgjPzEs6FxVceefCeYMdkRnoBrkRz9dYqKE%2F%2BnJO4EZ%2BeSVy%2BsZli2b%2BrTYuT12X1IlisFZEj%2F9zdy49f%2BD4N2mFOdqqnIL4UCHhYPEPFWJAm6VK2fXt3ZDrkXDwDxQc8yuQXgK9H85g34sEkzZ1YU2CIcPeuQkGItRIrvBcNjEMD%2FjtL4c9G%2B4%2FZK%2Bn7%2F8%2FgPv4Lw%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E
 
+Use Case 1: Login to website
+Actor: User
+Trigger: User wants to enter website.
+Pre-Conditions: User has account
+Post-Condition: User is logged in and able to access website
+Success Scenario: 
+1. User initiates login
+2. User has valid credentials
+3. User accesses website
+
+Alternate Scenario:
+2. User doesn't have valid credentials
+3. Website informs of invalid login
+4. Application asks user to reset password or report problem.
+
+Use Case 2: Live action scores
+Actor: User
+Trigger: User wants to see live updates or streaming services of a game
+Pre-Conditions: User is logged in and finds valid game
+Post-Condition: User can see live updates as well as the streaming services the game is on.
+Success Scenario:
+1. User initiates login
+2. User finds a valid game
+3. User clicks on game to enter status
+4. Application is giving current status of game and streaming services. 
+
+Alternate Scenario:
+2. User can't find game
+3. User is not given current status of game
+4. User reports the problem
+
+Use Case 3: Search 
+Actor: User
+Trigger: User wants to find a team, league, or sport.
+Pre-Conditions: User is logged in
+Post-Condition: User finds specific team, league, or sport wanted. 
+Success Scenario:
+1. User is logged in
+2. User searches for wanted thing. 
+3. Application gives a screen of specified request
+4. User clicks the game, league or sport to favorite or get live status.
+
+Alternate Scenario:
+2. Application can't find the search
+3. Application gives an error message 
+4. User can search again or report problem. 
+
 ## 7. User Stories
 
 **User Story 1:**
