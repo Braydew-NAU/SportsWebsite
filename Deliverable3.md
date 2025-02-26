@@ -80,7 +80,9 @@ These classes are structured to meet the requirements outlined in the user stori
 
 ## Model
 
-Below is the UML class diagram representing the conceptual model of the system. Each class is properly linked through the associations, and cardinalities are included where necessary.
+Below is the UML class diagrams representing the conceptual model of the system. Each class is properly linked through the associations, and cardinalities are included where necessary.
 
-![UML Class Diagram](uml_class_diagram.png)
+![User Managment Use Case Diagram](UserManagementUseCase.png)
+![Live Score Use Case Diagram](LiveScoresUseCase.png)
+![Search Use Case Diagram](SearchDiagramUseCase.png)
 
