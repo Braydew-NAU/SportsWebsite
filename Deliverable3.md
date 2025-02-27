@@ -8,6 +8,8 @@ Stakeholders are **Users** like Sports Fans & Enthusiasts are general visitors o
 
 **User Management** should have a user registration and log in, also with the ability to follow teams. **Live Scores** needs to match schedules and results with live score updates. **Search** should allow searching through catalog of movies or players and teams. The **performance** of the website should be able to respond within seconds and handle traffic. The **usability** should allow the user should to be able to easily navigate through the website. The website should be **scalable** to any screen size of the device it is on. The website should be able to be **available** almost all the time and on many devices. The website should be **compatable** on many different browsers. The website should be built in a way that it can easily be updated and **maintained**. 
 
+## Use Cases
+
 Use Case 1: Login to website 
 Actor: User,
 Trigger: User wants to enter website,
@@ -57,6 +59,8 @@ Alternate Scenario:
 2. Application can't find the search
 3. Application gives an error message 
 4. User can search again or report problem. 
+
+## User Stories
 
 **User Story 1:**
 - **As a** big sports viewer and enjoyer,
@@ -130,9 +134,6 @@ Alternate Scenario:
 
 ## Model
 
-Below is the UML class diagrams representing the conceptual model of the system. Each class is properly linked through the associations, and cardinalities are included where necessary.
+Below is the UML class diagram representing the conceptual model of the system. Each class is properly linked through the associations, and cardinalities are included where necessary.
 
-![User Managment Use Case Diagram](UserManagementUseCase.png)
-![Live Score Use Case Diagram](LiveScoresUseCase.png)
-![Search Use Case Diagram](SearchDiagramUseCase.png)
 
