@@ -9,10 +9,11 @@ Stakeholders are **Users** like Sports Fans & Enthusiasts are general visitors o
 **User Management** should have a user registration and log in, also with the ability to follow teams. **Live Scores** needs to match schedules and results with live score updates. **Search** should allow searching through catalog of movies or players and teams. The **performance** of the website should be able to respond within seconds and handle traffic. The **usability** should allow the user should to be able to easily navigate through the website. The website should be **scalable** to any screen size of the device it is on. The website should be able to be **available** almost all the time and on many devices. The website should be **compatable** on many different browsers. The website should be built in a way that it can easily be updated and **maintained**. 
 
 Use Case 1: Login to website 
-Actor: User
-Trigger: User wants to enter website.
-Pre-Conditions: User has account
-Post-Condition: User is logged in and able to access website
+Actor: User,
+Trigger: User wants to enter website,
+Pre-Conditions: User has account,
+Post-Condition: User is logged in and able to access website,
+
 Success Scenario: 
 1. User initiates login
 2. User has valid credentials
@@ -24,10 +25,11 @@ Alternate Scenario:
 4. Application asks user to reset password or report problem.
 
 Use Case 2: Live action scores
-Actor: User
-Trigger: User wants to see live updates or streaming services of a game
-Pre-Conditions: User is logged in and finds valid game
-Post-Condition: User can see live updates as well as the streaming services the game is on.
+Actor: User,
+Trigger: User wants to see live updates or streaming services of a game,
+Pre-Conditions: User is logged in and finds valid game,
+Post-Condition: User can see live updates as well as the streaming services the game is on,
+
 Success Scenario:
 1. User initiates login
 2. User finds a valid game
@@ -40,10 +42,11 @@ Alternate Scenario:
 4. User reports the problem
 
 Use Case 3: Search 
-Actor: User
-Trigger: User wants to find a team, league, or sport.
-Pre-Conditions: User is logged in
-Post-Condition: User finds specific team, league, or sport wanted. 
+Actor: User,
+Trigger: User wants to find a team, league, or sport,
+Pre-Conditions: User is logged in,
+Post-Condition: User finds specific team, league, or sport wanted,
+
 Success Scenario:
 1. User is logged in
 2. User searches for wanted thing. 
@@ -124,8 +127,6 @@ Alternate Scenario:
 - **So that** I can share my opinion and potentially see other reviewed movies.
 - **Priority:** Intermiadate
 - **Estimation:** 4.5 hours
-
-These classes are structured to meet the requirements outlined in the user stories and use cases in D.2, ensuring the system efficiently handles its functions.
 
 ## Model
 
