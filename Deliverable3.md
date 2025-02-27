@@ -79,6 +79,55 @@ Alternate Scenario:
 - **Priority:** Intermiadate
 - **Estimation:** 3 hours
 
+**User Story 4:**
+- **As a** sports enthusiast,
+- **I want** to browse sports movies that are classics,
+- **So that** I can stay updated with the old movies.
+- **Priority:** Intermiadate
+- **Estimation:** 6 hours
+
+**User Story 5:**
+- **As a** fan of specific sport teams,
+- **I want** to be able to watch my favorite teams win on the networks I own,
+- **So that** I can know if I will be able to watch my team.
+- **Priority:** High
+- **Estimation:** 12 hours
+
+**User Story 6:**
+- **As a** bored visitor of the site,
+- **I want** to browse movies that sport lovers watch,
+- **So that** I can keep growing my watched movie collection.
+- **Priority:** Low
+- **Estimation:** 2 hours
+
+**User Story 7:**
+- **As a** sport movie fan,
+- **I want** to be able to filter sport moives by the sport,
+- **So that** I can watch movies of the sport that I want.
+- **Priority:** High
+- **Estimation:** 7 hours
+
+**User Story 8:**
+- **As a** sports watcher,
+- **I want** to be able to get movie recommendations of my favorite sport,
+- **So that** I can continue to watch everything related to my sport.
+- **Priority:** Intermiadate
+- **Estimation:** 14 hours
+
+**User Story 9:**
+- **As a** sports lover,
+- **I want** to be able to know at what time my favorite team will play at,
+- **So that** I can be on time to watch the game in local time.
+- **Priority:** High
+- **Estimation:** 3 hours
+
+**User Story 10:**
+- **As a** big movie critic,
+- **I want** to be able to write and read reviews on specific movies,
+- **So that** I can share my opinion and potentially see other reviewed movies.
+- **Priority:** Intermiadate
+- **Estimation:** 4.5 hours
+
 ## Model
 
 Below is the UML class diagrams representing the conceptual model of the system. Each class is properly linked through the associations, and cardinalities are included where necessary.
