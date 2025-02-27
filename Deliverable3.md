@@ -76,8 +76,6 @@ Alternate Scenario:
 - **Priority:** Intermiadate
 - **Estimation:** 3 hours
 
-These classes are structured to meet the requirements outlined in the user stories and use cases in D.2, ensuring the system efficiently handles its functions.
-
 ## Model
 
 Below is the UML class diagrams representing the conceptual model of the system. Each class is properly linked through the associations, and cardinalities are included where necessary.
