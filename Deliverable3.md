@@ -60,6 +60,43 @@ Alternate Scenario:
 3. Application gives an error message 
 4. User can search again or report problem. 
 
+Use Case 4: Filter Movies
+Actor: User
+Trigger: User wants to browse sports movies based on a specific category
+Pre-Conditions: User has accessed the website
+Post-Condition: The user finds and views movies in the selected category
+
+Success Scenario:
+1. The user navigates to the movie database
+2. User selects a category
+3. Application filters and displays mocies that match the selected category
+4. User scrolls through the filtered list
+5. User selects a movie to view its details
+
+Alternate Scenarios:
+1. Application has no movies in the selected category
+2. Application displays a message indicating no available movies
+3. User can select a different categoru or return to the full movie list.
+
+Use Case 5: Add a Movie to Watchlist
+Actor: User
+Trigger: User want to save movies to watch later
+Pre-Conditions: The user is logged in to their account
+Post-Condition: The movie is successfully added to the user's watchlist
+
+Success Scenarios:
+1. The user logs into their account
+2. User browses or searches for a movie
+3. Use clicks the "Add to Watchlist" button
+4. Application confirms the movie has been added to the user's watchlist
+5. User can access the watchlist later to view saved movies.
+
+Alternate Scenarios:
+1. User is not logged in
+2. Application prompts the user to log in before adding movies to watchlist
+3. User logs in and repeats the process
+
+
 ## User Stories
 
 **User Story 1:**
