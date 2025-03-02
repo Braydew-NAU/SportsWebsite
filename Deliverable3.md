@@ -26,6 +26,6 @@ The problem of inefficient access to sports game _schedules_ and underpromotion 
 ## Model
 
 Below is the UML class diagram representing the conceptual model of the system. Each class is properly linked through the associations, and cardinalities are included where necessary.
-![UML Class Diagram](UML_Class_Diagram.png)
+![UML Class Diagram](UML_Class.png)
 
 
