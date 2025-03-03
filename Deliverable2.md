@@ -40,7 +40,7 @@ For sports fans who want to easily find broadcasting information for games and r
 
 - **Search:** Search through catalog of movies or players and teams.
 
-- **Sorting Movies:** Sort through the catalog of movies based off of a specific category such as genre, ratings, newest, etc. 
+- **Sorting Movies:** Sort through the catalog of movies based off of a specific category such as genre, ratings, newest, and sport type. 
   
 ---
 
