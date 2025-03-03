@@ -40,6 +40,7 @@ For sports fans who want to easily find broadcasting information for games and r
 
 - **Search:** Search through catalog of movies or players and teams.
 
+- **Follow Teams:** User should be able to follow their favorite teams.
 ---
 
 ## 4. Non-Functional Requirements
