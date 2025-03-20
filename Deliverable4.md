@@ -10,7 +10,7 @@ Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/24)
 <br>
 Pull request: 
 <br>
-Implemented by: Diego Duran
+Implemented by: Diego Duran, Braydon Lamoreaux
 <br>
 Approved by: 
 <br>
@@ -24,7 +24,7 @@ Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/43)
 <br>
 Pull request: 
 <br>
-Implemented by: Mitchell Morris
+Implemented by: Mitchell Morris, Braydon Lamoreaux
 <br>
 Approved by: 
 <br>
