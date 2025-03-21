@@ -51,4 +51,40 @@ window.onload = function () {
       }
     });
   });
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("search");
+    const movieList = document.getElementById("movie-list");
+
+    // Example movie data (Replace this with actual movie data fetching)
+    const movies = [
+        { title: "Rocky", genre: "Sports" },
+        { title: "Remember the Titans", genre: "Sports" },
+        { title: "Moneyball", genre: "Sports" },
+        { title: "Space Jam", genre: "Sports" },
+        { title: "Coach Carter", genre: "Sports" }
+    ];
+
+    function displayMovies(filteredMovies) {
+        movieList.innerHTML = ""; // Clear previous movies
+        filteredMovies.forEach(movie => {
+            const movieDiv = document.createElement("div");
+            movieDiv.classList.add("movie");
+            movieDiv.textContent = movie.title;
+            movieList.appendChild(movieDiv);
+        });
+    }
+
+    // Initial movie display
+    displayMovies(movies);
+
+    // Search function
+    searchInput.addEventListener("input", function () {
+        const searchTerm = searchInput.value.toLowerCase();
+        const filteredMovies = movies.filter(movie =>
+            movie.title.toLowerCase().includes(searchTerm)
+        );
+        displayMovies(filteredMovies);
+    });
+});
+
 };
