@@ -8,7 +8,7 @@ Requirement: As a sports movie fan I would like a page that mimics a poster with
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/24)
 <br>
-Pull request: 
+Pull request: [Duran's PR]() [Braydon's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/16)
 <br>
 Implemented by: Diego Duran, Braydon Lamoreaux
 <br>
@@ -22,7 +22,7 @@ Requirement: As a movie fan I want to be able to search my favorite movies and s
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/43)
 <br>
-Pull request: 
+Pull request: [Mitchell's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/44) [Braydon's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/16)
 <br>
 Implemented by: Mitchell Morris, Braydon Lamoreaux
 <br>
@@ -36,7 +36,7 @@ Requirement: As a sport movie fan, I want to be able to filter sport movies by t
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/25)
 <br>
-Pull request: 
+Pull request: [Tyler's PR]()
 <br>
 Implemented by: Tyler Edwards
 <br>
@@ -50,7 +50,7 @@ Requirement: As a big movie critic, I want to be able to write and read reviews 
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/28)
 <br>
-Pull request: 
+Pull request: [Garcia's PR]()
 <br>
 Implemented by: Diego Garcia
 <br>
