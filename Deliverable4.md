@@ -12,7 +12,7 @@ Pull request: [Duran's PR]() [Braydon's PR](https://github.com/Braydew-NAU/Sport
 <br>
 Implemented by: Diego Duran, Braydon Lamoreaux
 <br>
-Approved by: 
+Approved by: Braydon Lamoreaux, Tyler Edwards
 <br>
 Print screen: 
 
@@ -26,7 +26,7 @@ Pull request: [Mitchell's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/
 <br>
 Implemented by: Mitchell Morris, Braydon Lamoreaux
 <br>
-Approved by: 
+Approved by: Braydon Lamoreaux, Tyler Edwards
 <br>
 Print screen: 
 
