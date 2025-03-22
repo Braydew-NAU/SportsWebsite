@@ -36,7 +36,7 @@ Requirement: As a sport movie fan, I want to be able to filter sport movies by t
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/25)
 <br>
-Pull request: [Tyler's PR]()
+Pull request: [Tyler's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/47)
 <br>
 Implemented by: Tyler Edwards
 <br>
