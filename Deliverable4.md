@@ -80,10 +80,19 @@ Virtual Studio Code: This is where most of our code has been developed and teste
 <br>
 
 ## Deployment
+For this project, the system is hosted locally rather than using a cloud-based deployement. The deployment process involves setting up a local server environment, configuring dependencies, and ensuring accessibility within a local network. The system is deployed on a local machine running macOs. Node.js is installed and configured. 
 
 ## Licensing
+This project is taking on the MIT licensing because it is short and to the point. It lets people do almost anything they want with our project, like making and distributing closed source versions.
 
 ## ReadMe File
+[ReadMe file](https://github.com/Braydew-NAU/SportsWebsite/blob/main/README.md)
+<br>
+[Contributing to GameFanHub](https://github.com/Braydew-NAU/SportsWebsite/blob/main/CONTRIBUTING.md)
+<br>
+[Licensing](https://github.com/Braydew-NAU/SportsWebsite/blob/main/LICENSE)
+<br>
+[Code Of Conduct](https://github.com/Braydew-NAU/SportsWebsite/blob/main/CODE_OF_CONDUCT.md)
 
 ## UX Design
 
