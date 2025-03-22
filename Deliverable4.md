@@ -50,7 +50,7 @@ Requirement: As a big movie critic, I want to be able to write and read reviews 
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/28)
 <br>
-Pull request: [Garcia's PR]()
+Pull request: [Garcia's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/52)
 <br>
 Implemented by: Diego Garcia
 <br>
