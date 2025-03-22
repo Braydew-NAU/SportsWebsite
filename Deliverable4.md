@@ -56,8 +56,7 @@ Implemented by: Diego Garcia
 <br>
 Approved by:
 <br>
-Print screen: 
-
+Print screen:(https://github.com/Braydew-NAU/SportsWebsite/blob/Garcia-Dev-Branch/Reviewfeature.png)
 
 ## Tests
 
