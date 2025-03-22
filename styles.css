@@ -21,6 +21,15 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.movie-poster {
+  width: 100%;           /* Ensures images are responsive */
+  max-width: 300px;      /* Limits the maximum width of the image */
+  height: auto;          /* Maintains the aspect ratio */
+  border-radius: 5px;    /* Optional: rounds the corners of the image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Optional: adds shadow for effect */
+  margin-bottom: 10px;   /* Adds space below the image */
+}
+
 /* Existing movie list styles */
 #movies-list {
   display: flex;
