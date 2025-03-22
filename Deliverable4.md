@@ -62,6 +62,19 @@ Print screen:
 ## Tests
 
 ## Technology
+<br>
+HTML5: HTML is used in the front end creation of the website. It creates the initial layout and sets up the basic outline for the website. In the HTML file, it references both a JS and a CSS file that helps to displays our information. 
+<br>
+<br>
+CSS3: CSS is also used in the front end creation for the website. This is used to create a better appeal for the website, creating how each area should look and the space and font size that should go with it. 
+<br>
+<br>
+JS: This is also part of the front end creation. The JavaScript is responsible for creating the website by being able to fetch the catalog, display movies, and implement and respond to the search bar. 
+<br>
+<br>
+Git: Git was used to keep track of where the website is in progress. Each person would submit their changes or their comments through there and Git tracks all the changes and updates. 
+<br>
+<br>
 
 ## Deployment
 
