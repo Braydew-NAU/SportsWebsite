@@ -75,6 +75,9 @@ JS: This is also part of the front end creation. The JavaScript is responsible f
 Git: Git was used to keep track of where the website is in progress. Each person would submit their changes or their comments through there and Git tracks all the changes and updates. 
 <br>
 <br>
+Virtual Studio Code: This is where most of our code has been developed and tested. VS Code will allow us to modify all our codes and csv files. VS Code also allows for our testing of the sight. It allows for us to run a live version of what the website should look like. 
+<br>
+<br>
 
 ## Deployment
 
