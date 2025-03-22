@@ -16,24 +16,46 @@ window.onload = function () {
 
   // Display the movies on the webpage
   function displayMovies(moviesData) {
-    const movieList = document.getElementById("movie-list");
-    movieList.innerHTML = ""; // Clear previous data
+    const moviesList = document.getElementById("movies-list"); // Fixed ID
+    moviesList.innerHTML = ""; // Clear previous data
 
     // Loop through the movie data and create HTML for each movie
     moviesData.forEach((movie) => {
       const movieDiv = document.createElement("div");
       movieDiv.classList.add("movie");
 
+      // Movie Title
       const movieTitle = document.createElement("h3");
-      movieTitle.textContent = movie.Title; // Movie title
+      movieTitle.textContent = movie.Title; 
 
+      // Movie Year
+      const movieYear = document.createElement("p");
+      movieYear.textContent = `Year: ${movie.Year}`;
+
+      // Movie Rating
+      const movieRating = document.createElement("p");
+      movieRating.textContent = `Rating: ${movie.Rating}`;
+
+      // Movie Description
       const movieDescription = document.createElement("p");
-      movieDescription.textContent = movie.Description; // Movie description
+      movieDescription.textContent = movie.Description; 
 
+      // Add optional movie image if available in CSV
+      if (movie.ImageURL) {
+        const movieImage = document.createElement("img");
+        movieImage.src = movie.ImageURL;
+        movieImage.alt = movie.Title;
+        movieImage.classList.add("movie-image");
+        movieDiv.appendChild(movieImage);
+      }
+
+      // Append all elements
       movieDiv.appendChild(movieTitle);
+      movieDiv.appendChild(movieYear);
+      movieDiv.appendChild(movieRating);
       movieDiv.appendChild(movieDescription);
 
-      movieList.appendChild(movieDiv);
+      moviesList.appendChild(movieDiv);
     });
   }
 
@@ -51,6 +73,42 @@ window.onload = function () {
       }
     });
   });
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("search");
+    const movieList = document.getElementById("movie-list");
+
+    // Example movie data (Replace this with actual movie data fetching)
+    const movies = [
+        { title: "Rocky", genre: "Sports" },
+        { title: "Remember the Titans", genre: "Sports" },
+        { title: "Moneyball", genre: "Sports" },
+        { title: "Space Jam", genre: "Sports" },
+        { title: "Coach Carter", genre: "Sports" }
+    ];
+
+    function displayMovies(filteredMovies) {
+        movieList.innerHTML = ""; // Clear previous movies
+        filteredMovies.forEach(movie => {
+            const movieDiv = document.createElement("div");
+            movieDiv.classList.add("movie");
+            movieDiv.textContent = movie.title;
+            movieList.appendChild(movieDiv);
+        });
+    }
+
+    // Initial movie display
+    displayMovies(movies);
+
+    // Search function
+    searchInput.addEventListener("input", function () {
+        const searchTerm = searchInput.value.toLowerCase();
+        const filteredMovies = movies.filter(movie =>
+            movie.title.toLowerCase().includes(searchTerm)
+        );
+        displayMovies(filteredMovies);
+    });
+});
+
 };
 
 window.onload = function () {
