@@ -18,5 +18,17 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="script.js"></script>
+
+    <select id="movie-select" required>
+      <option value="">Select a movie...</option>
+    </select>
+    
+    <form id="review-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <textarea id="review" placeholder="Write your review here..." required></textarea>
+      <button type="submit">Submit Review</button>
+    </form>
+    <div id="review-list"></div>
+  
   </body>
 </html>

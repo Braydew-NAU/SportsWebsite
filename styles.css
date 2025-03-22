@@ -37,3 +37,7 @@ header {
   border-radius: 5px;
   border: 1px solid #ddd;
 }
+.review-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
