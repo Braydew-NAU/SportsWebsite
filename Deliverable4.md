@@ -95,6 +95,7 @@ This project is taking on the MIT licensing because it is short and to the point
 [Code Of Conduct](https://github.com/Braydew-NAU/SportsWebsite/blob/main/CODE_OF_CONDUCT.md)
 
 ## UX Design
+![UX_Design Screenshot](https://github.com/Braydew-NAU/SportsWebsite/blob/main/UX_Design.png)
 
 ## Lessons Learned
 
