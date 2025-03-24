@@ -98,6 +98,10 @@ This project is taking on the MIT licensing because it is short and to the point
 ![UX_Design Screenshot](https://github.com/Braydew-NAU/SportsWebsite/blob/main/UX_Design.png)
 
 ## Lessons Learned
+Communication: We learned the amount of communication that is NEEDED to succeed in creating a project of this size. 
+<br>
+Ordered Code: We learned that we should be aware of what the others are trying to create in case the codes are interlinked. 
+<br>
 
 ## Demo
 
