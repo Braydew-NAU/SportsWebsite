@@ -60,6 +60,7 @@ Print screen:
 
 
 ## Tests
+The framework used to develop our tests was Jest and JavaScript scripts to automate our testing. The folder on our GitHub where our automated tests are located are in the [\_tests_](https://github.com/Braydew-NAU/SportsWebsite/tree/main/_tests_) folder. The class being tested is the [display movies class](https://github.com/Braydew-NAU/SportsWebsite/blob/main/script.js) and here is the [test](https://github.com/Braydew-NAU/SportsWebsite/blob/main/_tests_/displayMovies.test.js). And here is a print screen of the result of the automated tests output ![TestResults](Test_Result.png)
 
 ## Technology
 <br>
@@ -102,6 +103,11 @@ Communication: We learned the amount of communication that is NEEDED to succeed 
 <br>
 Ordered Code: We learned that we should be aware of what the others are trying to create in case the codes are interlinked. 
 <br>
+Test Cases: We got to learn how to apply the processes needed to create our own test cases for each of our classes. 
+<br>
+We are going to change how we maintain the current implemented code. Before we were just using one branch per person for all changes, but next release we are going to create a new branch from main for each feature we need to implement. That way we dont overwrite other devs code. As well as better communication it took til the last week to fully figure out the level of communication needed to complete this project. We are going to be implementing a weekly check in with each other to make sure we are getting everything we need and following the proper protocols.  
+<br>
+
 
 ## Demo
 [Demo Video](https://nau.zoom.us/rec/play/kkNdEMycARzdLCW-jrGxOyVwEm3wUqWxR-vxh9kYRX9goYy3e7v5eScSnYWzQCHm2o06bVLohOL1qFLV.IZ-8w6tDTZeV70Q4?autoplay=true&startTime=1742773536000) 
