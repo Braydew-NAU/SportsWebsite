@@ -14,7 +14,7 @@ Implemented by: Diego Duran, Braydon Lamoreaux
 <br>
 Approved by: Braydon Lamoreaux, Tyler Edwards
 <br>
-Print screen: 
+Print screen: ![Movie_Posters](Movie_Posters.png)
 
 <br>
   
@@ -22,27 +22,13 @@ Requirement: As a movie fan I want to be able to search my favorite movies and s
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/43)
 <br>
-Pull request: [Mitchell's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/44) [Braydon's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/16)
+Pull request: [Tyler's Index.html PR](https://github.com/Braydew-NAU/SportsWebsite/pull/58) [Tyler's script.js PR](https://github.com/Braydew-NAU/SportsWebsite/pull/59) [Mitchell's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/44) [Braydon's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/16)
 <br>
 Implemented by: Mitchell Morris, Braydon Lamoreaux
 <br>
 Approved by: Braydon Lamoreaux, Tyler Edwards
 <br>
-Print screen: 
-
-<br>
-
-Requirement: As a sport movie fan, I want to be able to filter sport movies by the sport, so that I can watch movies of the sport that I want. Also filter by the movie ratings.
-<br>
-Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/25)
-<br>
-Pull request: [Tyler's Index.html PR](https://github.com/Braydew-NAU/SportsWebsite/pull/58) [Tyler's script.js PR](https://github.com/Braydew-NAU/SportsWebsite/pull/59)
-<br>
-Implemented by: Tyler Edwards
-<br>
-Approved by: Braydon Lamoreaux
-<br>
-Print screen: 
+Print screen: ![Movie_Search](Movie_search.png)
 
 <br>
 
@@ -56,7 +42,7 @@ Implemented by: Diego Garcia
 <br>
 Approved by: Braydon Lamoreaux
 <br>
-Print screen: 
+Print screen: ![Movie_Review](Movie_Review.png)
 
 
 ## Tests
