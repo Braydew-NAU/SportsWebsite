@@ -100,6 +100,7 @@ This project is taking on the MIT licensing because it is short and to the point
 ## Lessons Learned
 
 ## Demo
+[Demo Video](https://nau.zoom.us/rec/play/kkNdEMycARzdLCW-jrGxOyVwEm3wUqWxR-vxh9kYRX9goYy3e7v5eScSnYWzQCHm2o06bVLohOL1qFLV.IZ-8w6tDTZeV70Q4?autoplay=true&startTime=1742773536000) 
 
 
 
