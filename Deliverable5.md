@@ -6,6 +6,8 @@ GameFanHub is a comprehensive sports entertainment platform that provides sports
 
 The architecture follows the Model-View-Controller (MVC) pattern to ensure modularity, scalability, and maintainability. The User Interface (View) handles user interactions, while the Controller processes requests and communicates with the Model, which manages data using MongoDB. The Backend (Node.js with Express.js) efficiently handles routing and integrates with external APIs for real-time sports data. This separation of concerns allows for easy updates and scalability without affecting other components. The design ensures a responsive user experience while maintaining efficient data processing and retrieval.
 ## Class Diagrams
+![Uploading Screenshot 2025-04-04 at 5.52.19 PM.png…]()
+
 
 ## Sequence Diagrams
 
