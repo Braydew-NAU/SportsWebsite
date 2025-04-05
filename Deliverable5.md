@@ -4,6 +4,8 @@ GameFanHub is a comprehensive sports entertainment platform that provides sports
 ## Architecture 
 
 ## Class Diagrams
+![Uploading Screenshot 2025-04-04 at 5.52.19 PM.png…]()
+
 
 ## Sequence Diagrams
 
