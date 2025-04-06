@@ -16,6 +16,11 @@ This sequence diagram illustrates the interaction between a user, a website logi
 ## Design Patterns
 ![DisplayMovie](DisplayMovie.png)
 <br>
+Structural: The movies will all be added individually as cards. These all hold the name of the movie, image, description and rating. These movies can be sorted/filtered by rating or by year. This would change the way that these movies are displayed. Therefore determining the structure. 
+<br>
+<br>
 ![Review](Review.png)
+<br>
+Creational: The reviews are created individually as they are added. The reviews will be added whenever they have a name, description, rating, and movie selected, then implemented into the reviews as a card. This being creational because the user creates the reviews. 
 
 ## Design Principles
