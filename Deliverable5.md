@@ -14,5 +14,8 @@ The architecture follows the Model-View-Controller (MVC) pattern to ensure modul
 
 This sequence diagram illustrates the interaction between a user, a website login page, and a movie section page. The process begins when the user opens the website and is prompted to enter login credentials. After providing the username and password, the user is successfully logged in. The system then presents the user with movie selections. The user decides to search for baseball movies through a filter. The system processes the search request and displays relevant baseball movies. Finally, the user leaves a review for the movie 'The Benchwarmers'.
 ## Design Patterns
+![DisplayMovie](DisplayMovie.png)
+<br>
+![Review](Review.png)
 
 ## Design Principles
