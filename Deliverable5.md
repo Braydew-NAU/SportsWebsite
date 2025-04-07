@@ -24,3 +24,12 @@ Structural: The movies will all be added individually as cards. These all hold t
 Creational: The reviews are created individually as they are added. The reviews will be added whenever they have a name, description, rating, and movie selected, then implemented into the reviews as a card. This being creational because the user creates the reviews. 
 
 ## Design Principles
+In our java script code, we have a single responsible principle. This function is only responsible for displaying the movies when a customer visits the site.  
+
+Picture 
+
+In our java code again, we have open/closed principle. These functions are responsible for sorting out movies for user when they search for it.  
+
+Picture 
+
+We have interface segregation principles in our index html file by keeping our reviews, search, and movie displays all separate. Each client specific interface is its own and not one general purpose interface.
