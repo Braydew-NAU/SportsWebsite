@@ -19,6 +19,7 @@ This sequence diagram illustrates the interaction between a user, a website logi
 Structural: The movies will all be added individually as cards. These all hold the name of the movie, image, description and rating. These movies can be sorted/filtered by rating or by year. This would change the way that these movies are displayed. Therefore determining the structure. 
 <br>
 Movies: [Movies implemented in HTML](https://github.com/Braydew-NAU/SportsWebsite/edit/main/index.html)
+<br>
 Sorts: [Movie cards are created/designed in CSS](https://github.com/Braydew-NAU/SportsWebsite/edit/main/styles.css)
 <br>
 ![Review](Review.png)
