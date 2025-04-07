@@ -22,6 +22,7 @@ Movies: [Movies implemented in HTML](https://github.com/Braydew-NAU/SportsWebsit
 <br>
 Sorts: [Movie cards are created/designed in CSS](https://github.com/Braydew-NAU/SportsWebsite/edit/main/styles.css)
 <br>
+<br>
 ![Review](Review.png)
 <br>
 Creational: The reviews are created individually as they are added. The reviews will be added whenever they have a name, description, rating, and movie selected, then implemented into the reviews as a card. This being creational because the user creates the reviews. 
