@@ -18,10 +18,17 @@ This sequence diagram illustrates the interaction between a user, a website logi
 <br>
 Structural: The movies will all be added individually as cards. These all hold the name of the movie, image, description and rating. These movies can be sorted/filtered by rating or by year. This would change the way that these movies are displayed. Therefore determining the structure. 
 <br>
+Movies: [Movies implemented in HTML](https://github.com/Braydew-NAU/SportsWebsite/edit/main/index.html)
+<br>
+Sorts: [Movie cards are created/designed in CSS](https://github.com/Braydew-NAU/SportsWebsite/edit/main/styles.css)
+<br>
 <br>
 ![Review](Review.png)
 <br>
 Creational: The reviews are created individually as they are added. The reviews will be added whenever they have a name, description, rating, and movie selected, then implemented into the reviews as a card. This being creational because the user creates the reviews. 
+<br>
+Reviews: [Reviews done in JS file](https://github.com/Braydew-NAU/SportsWebsite/edit/main/script.js)
+
 
 ## Design Principles
 In our java script code, we have a single responsible principle. This function is only responsible for displaying the movies when a customer visits the site.  
