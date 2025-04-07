@@ -26,10 +26,10 @@ Creational: The reviews are created individually as they are added. The reviews 
 ## Design Principles
 In our java script code, we have a single responsible principle. This function is only responsible for displaying the movies when a customer visits the site.  
 
-Picture 
+![SRP](function_call.png) 
 
 In our java code again, we have open/closed principle. These functions are responsible for sorting out movies for user when they search for it.  
 
-Picture 
+![OCP](closed_principle.png) 
 
 We have interface segregation principles in our index html file by keeping our reviews, search, and movie displays all separate. Each client specific interface is its own and not one general purpose interface.
