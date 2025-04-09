@@ -19,20 +19,14 @@ window.onload = function () {
 
   document.getElementById("sort-year")?.addEventListener("click", () => {
     const sortedMovies = Array.from(moviesList).sort((a, b) => {
-      return (
-        parseInt(a.querySelector(".year").textContent) -
-        parseInt(b.querySelector(".year").textContent)
-      );
+      return parseInt(a.dataset.year) - parseInt(b.dataset.year);
     });
     displayMovies(sortedMovies);
   });
 
   document.getElementById("sort-rating")?.addEventListener("click", () => {
     const sortedMovies = Array.from(moviesList).sort((a, b) => {
-      return (
-        parseFloat(b.querySelector(".rating").textContent) -
-        parseFloat(a.querySelector(".rating").textContent)
-      );
+      return parseFloat(b.dataset.rating) - parseFloat(a.dataset.rating);
     });
     displayMovies(sortedMovies);
   });
