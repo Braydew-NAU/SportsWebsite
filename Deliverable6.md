@@ -47,9 +47,9 @@ Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/12)
 <br>
 Pull request: 
 <br>
-Implemented by: 
+Implemented by: Mitchell Morris
 <br>
-Approved by: 
+Approved by: Tyler Edwards
 <br>
 Print screen: A print screen that depicts the implemented feature (if applicable)
 
