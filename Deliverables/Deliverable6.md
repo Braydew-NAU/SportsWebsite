@@ -45,7 +45,7 @@ Requirement: As an avid sport movie lover, I want to know what are the highest r
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/12)
 <br>
-Pull request: 
+Pull request: [Link to Mitchell's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/75)
 <br>
 Implemented by: Mitchell Morris
 <br>
