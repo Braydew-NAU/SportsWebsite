@@ -11,10 +11,10 @@
     <header>
       <h1>GameFanHub</h1>
       <input type="text" id="search" placeholder="Search movies..." />
-      <button id="sort-year" class="action-button">Sort by Year</button>
-      <button id="sort-rating" class="action-button">Sort by Rating</button>
       <nav>
-        <a href="SportsSchedule.html" class="header-button">Sports Schedule</a>
+        <a href="SportsSchedule.html" class="header-button"
+          >Sports Schedule Page</a
+        >
       </nav>
     </header>
 
@@ -23,8 +23,13 @@
         <h1>Top Sports Movies</h1>
       </header>
 
+      <h4>
+        <button id="sort-year" class="action-button">Sort by Year</button>
+        <button id="sort-rating" class="action-button">Sort by Rating</button>
+      </h4>
       <div id="movies-list" class="card-grid">
-        <div class="movie" data-year="1976" data-rating="8.1">
+        <!--Movie 1-->
+        <div class="movie" data-id="rocky" data-year="1976" data-rating="8.1">
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/Rocky.jpeg?raw=true"
             alt="Rocky Poster"
@@ -35,8 +40,31 @@
             A small-time boxer gets a shot at the world heavyweight championship
           </p>
           <span>Rating: 8.1</span>
+
+          <form class="review-form" data-movie="rocky">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-rocky"></div>
         </div>
-        <div class="movie" data-year="1986" data-rating="7.4">
+        <!--Movie 2-->
+        <div
+          class="movie"
+          data-id="hoosiers"
+          data-year="1986"
+          data-rating="7.4"
+        >
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/Hoosiers.jpeg?raw=true"
             alt="Hoosiers Poster"
@@ -48,8 +76,26 @@
             championship
           </p>
           <span>Rating: 7.4</span>
+
+          <form class="review-form" data-movie="hoosiers">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-hoosiers"></div>
         </div>
-        <div class="movie" data-year="1993" data-rating="7.5">
+        <!--Movie 3-->
+        <div class="movie" data-id="Rudy" data-year="1993" data-rating="7.5">
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/Rudy.jpeg?raw=true"
             alt="Rudy Poster"
@@ -61,8 +107,31 @@
             Dame
           </p>
           <span>Rating: 7.5</span>
+
+          <form class="review-form" data-movie="rudy">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-rudy"></div>
         </div>
-        <div class="movie" data-year="2000" data-rating="7.8">
+        <!--Movie 4-->
+        <div
+          class="movie"
+          data-id="rememberTheTitans"
+          data-year="2000"
+          data-rating="7.8"
+        >
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/RememberTheTitans.jpeg?raw=true"
             alt="Remember the Titans Poster"
@@ -71,8 +140,26 @@
           <h3>Remember the Titans (2000)</h3>
           <p>A high school football team unites a racially divided community</p>
           <span>Rating: 7.8</span>
+
+          <form class="review-form" data-movie="rememberTheTitans">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-rememberTheTitans"></div>
         </div>
-        <div class="movie" data-year="2004" data-rating="7.5">
+        <!--Movie 5-->
+        <div class="movie" data-id="Miracle" data-year="2004" data-rating="7.5">
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/Miracle.jpeg?raw=true"
             alt="Miracle Poster"
@@ -84,8 +171,31 @@
             the Soviets
           </p>
           <span>Rating: 7.5</span>
+
+          <form class="review-form" data-movie="miracle">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-miracle"></div>
         </div>
-        <div class="movie" data-year="1989" data-rating="7.5">
+        <!--Movie 6-->
+        <div
+          class="movie"
+          data-id="fieldOfDreams"
+          data-year="1989"
+          data-rating="7.5"
+        >
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/FieldOfDreams.jpeg?raw=true"
             alt="Field of Dreams Poster"
@@ -97,8 +207,26 @@
             legendary players
           </p>
           <span>Rating: 7.5</span>
+
+          <form class="review-form" data-movie="fieldOfDreams">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-fieldOfDreams"></div>
         </div>
-        <div class="movie" data-year="1993" data-rating="7.8">
+        <!--Movie 7-->
+        <div class="movie" data-id="sandlot" data-year="1993" data-rating="7.8">
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/TheSandlot.jpeg?raw=true"
             alt="The Sandlot Poster"
@@ -107,8 +235,31 @@
           <h3>The Sandlot (1993)</h3>
           <p>A group of kids bond over baseball during the summer of 1962</p>
           <span>Rating: 7.8</span>
+
+          <form class="review-form" data-movie="sandlot">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-sandlot"></div>
         </div>
-        <div class="movie" data-year="2011" data-rating="7.6">
+        <!--Movie 8-->
+        <div
+          class="movie"
+          data-id="moneyball"
+          data-year="2011"
+          data-rating="7.6"
+        >
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/Moneyball.jpeg?raw=true"
             alt="Moneyball Poster"
@@ -120,8 +271,31 @@
             baseball team
           </p>
           <span>Rating: 7.6</span>
+
+          <form class="review-form" data-movie="moneyball">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-moneyball"></div>
         </div>
-        <div class="movie" data-year="2009" data-rating="7.6">
+        <!--Movie 9-->
+        <div
+          class="movie"
+          data-id="blindSide"
+          data-year="2009"
+          data-rating="7.6"
+        >
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/TheBlindSide.jpeg?raw=true"
             alt="The Blind Side Poster"
@@ -133,8 +307,31 @@
             family
           </p>
           <span>Rating: 7.6</span>
+
+          <form class="review-form" data-movie="blindSide">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-blindSide"></div>
         </div>
-        <div class="movie" data-year="2005" data-rating="7.3">
+        <!--Movie 10-->
+        <div
+          class="movie"
+          data-id="coachCarter"
+          data-year="2005"
+          data-rating="7.3"
+        >
           <img
             src="https://github.com/Braydew-NAU/SportsWebsite/blob/main/Images/CoachCarter.jpeg?raw=true"
             alt="Coach Carter Poster"
@@ -146,28 +343,26 @@
             team into winners
           </p>
           <span>Rating: 7.3</span>
+
+          <form class="review-form" data-movie="coachCarter">
+            <input
+              type="text"
+              class="review-name"
+              placeholder="Your Name"
+              required
+            />
+            <textarea
+              class="review-text"
+              placeholder="Write your review here"
+              required
+            ></textarea>
+            <button type="submit" class="action-button">Submit Review</button>
+          </form>
+
+          <div class="reviews-list" id="reviews-coachCarter"></div>
         </div>
       </div>
     </section>
-
-    <section>
-      <select id="movie-select" required>
-        <option value="">Select a movie...</option>
-      </select>
-
-      <form id="review-form">
-        <input type="text" id="name" placeholder="Your Name" required />
-        <textarea
-          id="review"
-          placeholder="Write your review here..."
-          required
-        ></textarea>
-        <button type="submit">Submit Review</button>
-      </form>
-    </section>
-
-    <section id="review-list"></section>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="script.js"></script>
   </body>
