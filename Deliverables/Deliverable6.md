@@ -9,11 +9,11 @@ Requirement: As a sports lover, I want to be able to know at what time my favori
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/27)
 <br>
-Pull request: 
+Pull request: [Link to Braydon's Pull request](https://github.com/Braydew-NAU/SportsWebsite/pull/83)
 <br>
-Implemented by: Braydon Lamoreaux, 
+Implemented by: Braydon Lamoreaux, Tyler Edwards
 <br>
-Approved by: 
+Approved by: Tyler Edwards, Braydon Lamoreaux
 <br>
 Print screen: A print screen that depicts the implemented feature (if applicable)
 
