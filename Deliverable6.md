@@ -47,11 +47,11 @@ Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/12)
 <br>
 Pull request: 
 <br>
-Implemented by: 
+Implemented by: Mitchell Morris
 <br>
-Approved by: 
+Approved by: Tyler Edwards
 <br>
-Print screen: A print screen that depicts the implemented feature (if applicable)
+Print screen: ![Sorting Buttons](SortingButtons.png)
 
 ## Tests
 The framework used to develop our tests was Jest and JavaScript scripts to automate our testing. The folder on our GitHub where our automated tests are located are in the [\_tests_](https://github.com/Braydew-NAU/SportsWebsite/tree/main/_tests_) folder.
