@@ -68,4 +68,22 @@ window.onload = function () {
     movieReviewSection.appendChild(reviewItem);
     reviewForm.reset();
   });
+
+  const gameCards = document.querySelectorAll(".game-card");
+  gameCards.forEach((card) => {
+    const sport = card.getAttribute("data-sport");
+    const matchup = card.getAttribute("data-matchup");
+    const data = card.getAttribute("data-date");
+    const stream = card.getAttribute("data-stream");
+
+    card.classList.add("card");
+    card.innerHTML = `
+      <div class="card-header">🏟️ ${sport}</div>
+      <div class="card-body">
+        <p><strong>Matchup:</strong> ${matchup}</p>
+        <p><strong>Date:</strong> ${date}</p>
+        <p><strong>Streaming:</strong> ${stream}</p>
+      </div>
+    `;
+  });
 };
