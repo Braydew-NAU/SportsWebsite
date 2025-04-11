@@ -33,13 +33,13 @@ Requirement: As a sport movie fan, I want to be able to filter sport movies by t
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/25)
 <br>
-Pull request: 
+Pull request: [Link to Duran's PR](https://github.com/Braydew-NAU/SportsWebsite/pull/84)
 <br>
-Implemented by: 
+Implemented by: Diego Duran
 <br>
-Approved by: 
+Approved by: Diego Aranda
 <br>
-Print screen: A print screen that depicts the implemented feature (if applicable)
+Print screen: ![Filter by Sport](DeliverableImages/Filter_Sport.png)
 
 Requirement: As an avid sport movie lover, I want to know what are the highest rated sport movies are, so that I can enjoy a great sport movie for enjoyment.
 <br>
