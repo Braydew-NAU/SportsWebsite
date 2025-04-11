@@ -9,7 +9,7 @@ Requirement: As a sports lover, I want to be able to know at what time my favori
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/27)
 <br>
-Pull request: [Link to Braydon's Pull request](https://github.com/Braydew-NAU/SportsWebsite/pull/83)
+Pull request: [Link to Braydon's Pull request](https://github.com/Braydew-NAU/SportsWebsite/pull/83) [Link to Tyler's Pull Request](https://github.com/Braydew-NAU/SportsWebsite/pull/85)
 <br>
 Implemented by: Braydon Lamoreaux, Tyler Edwards
 <br>
@@ -23,7 +23,7 @@ Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/26)
 <br>
 Pull request: 
 <br>
-Implemented by: 
+Implemented by: Diego Garcia
 <br>
 Approved by:
 <br>
@@ -38,6 +38,12 @@ Pull request: [Link to Duran's PR](https://github.com/Braydew-NAU/SportsWebsite/
 Implemented by: Diego Duran
 <br>
 Approved by: Diego Aranda
+
+Pull request: [Link to Duran's Pull Request](https://github.com/Braydew-NAU/SportsWebsite/pull/84)
+<br>
+Implemented by: Diego Duran
+<br>
+Approved by: Diego Garacia
 <br>
 Print screen: ![Filter by Sport](DeliverableImages/Filter_Sport.png)
 
