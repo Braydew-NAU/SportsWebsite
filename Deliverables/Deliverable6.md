@@ -9,7 +9,7 @@ Requirement: As a sports lover, I want to be able to know at what time my favori
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/27)
 <br>
-Pull request: [Link to Braydon's Pull request](https://github.com/Braydew-NAU/SportsWebsite/pull/83)
+Pull request: [Link to Braydon's Pull request](https://github.com/Braydew-NAU/SportsWebsite/pull/83) [Link to Tyler's Pull Request](https://github.com/Braydew-NAU/SportsWebsite/pull/85)
 <br>
 Implemented by: Braydon Lamoreaux, Tyler Edwards
 <br>
@@ -23,7 +23,7 @@ Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/26)
 <br>
 Pull request: 
 <br>
-Implemented by: 
+Implemented by: Diego Garcia
 <br>
 Approved by:
 <br>
@@ -33,11 +33,11 @@ Requirement: As a sport movie fan, I want to be able to filter sport movies by t
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/25)
 <br>
-Pull request: 
+Pull request: [Link to Duran's Pull Request](https://github.com/Braydew-NAU/SportsWebsite/pull/84)
 <br>
-Implemented by: 
+Implemented by: Diego Duran
 <br>
-Approved by: 
+Approved by: Diego Garacia
 <br>
 Print screen: A print screen that depicts the implemented feature (if applicable)
 
