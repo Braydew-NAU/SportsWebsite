@@ -35,6 +35,25 @@ window.onload = function () {
     displayMovies(sortedMovies);
   });
 
+  //Sort movies by sport
+  document.getElementById("sort-sport").addEventListener("click", function () {
+    const moviesContainer = document.getElementById("movies-list");
+    const movies = Array.from(moviesContainer.getElementsByClassName("movie"));
+    
+    // Sort movies by the sport type (alphabetically)
+    movies.sort(function(a, b) {
+      const sportA = a.getAttribute("data-sport").toLowerCase();
+      const sportB = b.getAttribute("data-sport").toLowerCase();
+      
+      if (sportA < sportB) return -1;
+      if (sportA > sportB) return 1;
+      return 0;
+    });
+    
+    // Append the sorted movies back to the container
+    movies.forEach(movie => moviesContainer.appendChild(movie));
+  });
+
   // Review form functionality
   const reviewForms = document.querySelectorAll(".review-form");
   reviewForms.forEach((form) => {
