@@ -15,7 +15,7 @@ Implemented by: Braydon Lamoreaux, Tyler Edwards
 <br>
 Approved by: Tyler Edwards, Braydon Lamoreaux
 <br>
-Print screen: A print screen that depicts the implemented feature (if applicable)
+Print screen: ![SportsSchedulePage](DeliverableImages/SportsSchedulePage.png)
 
 Requirement: As a sports watcher, I want to be able to get movie recommendations of my favorite sport, so that I can continue to watch everything related to my sport.
 <br>
