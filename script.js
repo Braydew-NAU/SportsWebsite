@@ -1,4 +1,4 @@
-// script.js
+// script.js 
 window.onload = function () {
   const movies = Array.from(document.querySelectorAll(".movie"));
   const moviesContainer = document.getElementById("movies-list");
