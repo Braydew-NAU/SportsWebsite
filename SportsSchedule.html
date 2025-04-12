@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports Schedule</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GameFanHub - Sports Schedule</h1>
+    </header>
+    <header>
+      <nav>
+        <a href="index.html" class="header-button">Back to Home</a>
+      </nav>
+    </header>
+    <div class="container">
+      <h2>Upcoming Games</h2>
+
+      <div class="navigation">
+        <button id="college-sports" onclick="scrollToSection('college-sports')">
+          College Sports
+        </button>
+        <button
+          id="professional-sports"
+          onclick="scrollToSection('professional-sports')"
+        >
+          Professional Sports
+        </button>
+      </div>
+
+      <div id="college-sports" class="sports-section">
+        <h3>College Sports</h3>
+        <div class="card-grid">
+          <div
+            class="game-card"
+            data-sport="Basketball"
+            data-matchup="NAU vs. ASU"
+            data-date="April 15"
+            data-stream="ESPN+"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Soccer"
+            data-matchup="NAU vs. U of A"
+            data-date="April 20"
+            data-stream="Fox Sports"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Football"
+            data-matchup="NAU vs. Montana"
+            data-date="May 5"
+            data-stream="CBS Sports"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Football"
+            data-matchup="University of Alabama vs. LSU"
+            data-date="October 12"
+            data-stream="ESPN"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Basketball"
+            data-matchup="Duke University vs. University of North Carolina"
+            data-date="February 25"
+            data-stream="CBS Sports"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Soccer"
+            data-matchup="Stanford University vs. University of California"
+            data-date="November 5"
+            data-stream="Fox Sports"
+          ></div>
+        </div>
+      </div>
+
+      <div id="professional-sports" class="sports-section">
+        <h3>Professional Sports</h3>
+        <div class="card-grid">
+          <div
+            class="game-card"
+            data-sport="Football"
+            data-matchup="Dallas Cowboys vs. New York Giants"
+            data-date="September 15"
+            data-stream="NBC Sports"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Basketball"
+            data-matchup="Los Angeles Lakers vs. Brooklyn Nets"
+            data-date="December 5"
+            data-stream="TNT"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Baseball"
+            data-matchup="New York Yankees vs. Boston Red Sox"
+            data-date="July 20"
+            data-stream="ESPN"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Football"
+            data-matchup="Kansas City Chiefs vs. Buffalo Bills"
+            data-date="November 22"
+            data-stream="CBS Sports"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Basketball"
+            data-matchup="Golden State Warriors vs. Miami Heat"
+            data-date="January 30"
+            data-stream="ESPN"
+          ></div>
+          <div
+            class="game-card"
+            data-sport="Baseball"
+            data-matchup="Los Angeles Dodgers vs. Chicago Cubs"
+            data-date="August 10"
+            data-stream="MLB Network"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="schedule.js"></script>
+  </body>
+</html>

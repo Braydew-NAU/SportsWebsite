@@ -1,15 +1,16 @@
-// script.js 
 window.onload = function () {
   const movies = Array.from(document.querySelectorAll(".movie"));
   const moviesContainer = document.getElementById("movies-list");
 
   // Helper: re-render a list of movie elements
-  function displayMovies(list) {
+  // Function to display movies
+  function displayMovies(movies) {
+    const moviesContainer = document.getElementById("movies-list");
     moviesContainer.innerHTML = "";
-    list.forEach(m => moviesContainer.appendChild(m));
+    movies.forEach(m => moviesContainer.appendChild(m));
   }
 
-  // --- Search ---
+  // --- Search functionality ---
   document.getElementById("search")?.addEventListener("keyup", function () {
     const q = this.value.toLowerCase();
     movies.forEach(m => {
@@ -18,22 +19,28 @@ window.onload = function () {
     });
   });
 
-  // --- Sort ---
+  // Sort movies by year
   document.getElementById("sort-year")?.addEventListener("click", () => {
-    const sorted = [...movies].sort((a, b) => a.dataset.year - b.dataset.year);
-    displayMovies(sorted);
+    const sortedMovies = movies.sort((a, b) => {
+      return parseInt(a.dataset.year) - parseInt(b.dataset.year);
+    });
+    displayMovies(sortedMovies);
   });
 
+  // Sort movies by rating
   document.getElementById("sort-rating")?.addEventListener("click", () => {
-    const sorted = [...movies].sort((a, b) => b.dataset.rating - a.dataset.rating);
-    displayMovies(sorted);
+    const sortedMovies = movies.sort((a, b) => {
+      return parseFloat(b.dataset.rating) - parseFloat(a.dataset.rating);
+    });
+    displayMovies(sortedMovies);
   });
 
+  // Sort movies by sport
   document.getElementById("sort-sport")?.addEventListener("click", () => {
-    const sorted = [...movies].sort((a, b) =>
-      a.dataset.sport.localeCompare(b.dataset.sport)
-    );
-    displayMovies(sorted);
+    const sortedMovies = movies.sort((a, b) => {
+      return a.dataset.sport.localeCompare(b.dataset.sport);
+    });
+    displayMovies(sortedMovies);
   });
 
   // --- Recommendation by Favorite Sport ---
@@ -69,7 +76,7 @@ window.onload = function () {
   movies.forEach(m => {
     const id = m.dataset.id;
     const reviewList = m.querySelector(".reviews-list");
-    // load existing
+    // load existing reviews from localStorage
     const saved = JSON.parse(localStorage.getItem(id) || "[]");
     saved.forEach(r => {
       const d = document.createElement("div");
@@ -79,6 +86,7 @@ window.onload = function () {
     });
   });
 
+  // Review form functionality
   document.querySelectorAll(".review-form").forEach(form => {
     form.addEventListener("submit", e => {
       e.preventDefault();
@@ -87,14 +95,14 @@ window.onload = function () {
       const id = form.dataset.movie;
       if (!name || !text) return alert("Enter name & review");
 
-      // append to DOM
+      // append new review to the DOM
       const reviewList = document.getElementById(`reviews-${id}`);
       const d = document.createElement("div");
       d.className = "review-item";
       d.innerHTML = `<strong>${name}:</strong> <p>${text}</p>`;
       reviewList.appendChild(d);
 
-      // save
+      // save review to localStorage
       const arr = JSON.parse(localStorage.getItem(id) || "[]");
       arr.push({ name, reviewText: text });
       localStorage.setItem(id, JSON.stringify(arr));
