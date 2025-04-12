@@ -1,77 +1,105 @@
+// script.js
 window.onload = function () {
-  const moviesList = document.querySelectorAll(".movie");
+  const movies = Array.from(document.querySelectorAll(".movie"));
+  const moviesContainer = document.getElementById("movies-list");
 
-  function displayMovies(movies) {
-    const moviesContainer = document.getElementById("movies-list");
+  // Helper: re-render a list of movie elements
+  function displayMovies(list) {
     moviesContainer.innerHTML = "";
-    movies.forEach((movie) => {
-      moviesContainer.appendChild(movie);
-    });
+    list.forEach(m => moviesContainer.appendChild(m));
   }
 
+  // --- Search ---
   document.getElementById("search")?.addEventListener("keyup", function () {
-    const filter = this.value.toLowerCase();
-    moviesList.forEach((movie) => {
-      const title = movie.querySelector("h3").innerText.toLowerCase();
-      movie.style.display = title.includes(filter) ? "block" : "none";
+    const q = this.value.toLowerCase();
+    movies.forEach(m => {
+      const title = m.querySelector("h3").innerText.toLowerCase();
+      m.style.display = title.includes(q) ? "block" : "none";
     });
   });
 
+  // --- Sort ---
   document.getElementById("sort-year")?.addEventListener("click", () => {
-    const sortedMovies = Array.from(moviesList).sort((a, b) => {
-      return (
-        parseInt(a.querySelector(".year").textContent) -
-        parseInt(b.querySelector(".year").textContent)
-      );
-    });
-    displayMovies(sortedMovies);
+    const sorted = [...movies].sort((a, b) => a.dataset.year - b.dataset.year);
+    displayMovies(sorted);
   });
 
   document.getElementById("sort-rating")?.addEventListener("click", () => {
-    const sortedMovies = Array.from(moviesList).sort((a, b) => {
-      return (
-        parseFloat(b.querySelector(".rating").textContent) -
-        parseFloat(a.querySelector(".rating").textContent)
-      );
+    const sorted = [...movies].sort((a, b) => b.dataset.rating - a.dataset.rating);
+    displayMovies(sorted);
+  });
+
+  document.getElementById("sort-sport")?.addEventListener("click", () => {
+    const sorted = [...movies].sort((a, b) =>
+      a.dataset.sport.localeCompare(b.dataset.sport)
+    );
+    displayMovies(sorted);
+  });
+
+  // --- Recommendation by Favorite Sport ---
+  const favSelect = document.getElementById("favorite-sport");
+  document.getElementById("recommendation-btn")?.addEventListener("click", () => {
+    const chosen = favSelect.value.toLowerCase();
+    let any = false;
+
+    // clear previous highlights
+    movies.forEach(m => {
+      m.style.border = "";
+      m.style.boxShadow = "";
     });
-    displayMovies(sortedMovies);
-  });
 
-  const movieSelect = document.getElementById("movie-select");
-  moviesList.forEach((movie) => {
-    const movieTitle = movie.querySelector("h3").textContent;
-    const option = document.createElement("option");
-    option.value = movieTitle;
-    option.textContent = movieTitle;
-    movieSelect.appendChild(option);
-  });
-
-  const reviewForm = document.getElementById("review-form");
-  const reviewList = document.getElementById("review-list");
-
-  reviewForm?.addEventListener("submit", function (event) {
-    event.preventDefault();
-    const name = document.getElementById("name").value.trim();
-    const reviewText = document.getElementById("review").value.trim();
-    const movieTitle = movieSelect.value;
-
-    if (!name || !reviewText || !movieTitle) {
-      alert("Please enter your name, select a movie, and write a review.");
-      return;
+    // highlight matches
+    for (const m of movies) {
+      if (m.dataset.sport.toLowerCase() === chosen) {
+        m.style.border = "3px solid gold";
+        m.style.boxShadow = "0 0 15px gold";
+        if (!any) {
+          m.scrollIntoView({ behavior: "smooth", block: "center" });
+          any = true;
+        }
+      }
     }
 
-    let movieReviewSection = document.getElementById(`reviews-${movieTitle}`);
-    if (!movieReviewSection) {
-      movieReviewSection = document.createElement("div");
-      movieReviewSection.id = `reviews-${movieTitle}`;
-      movieReviewSection.innerHTML = `<h3>Reviews for ${movieTitle}</h3>`;
-      reviewList.appendChild(movieReviewSection);
+    if (!any) {
+      alert(`No ${chosen.charAt(0).toUpperCase() + chosen.slice(1)} movies found.`);
     }
+  });
 
-    const reviewItem = document.createElement("div");
-    reviewItem.classList.add("review-item");
-    reviewItem.innerHTML = `<strong>${name}:</strong> <p>${reviewText}</p>`;
-    movieReviewSection.appendChild(reviewItem);
-    reviewForm.reset();
+  // --- Reviews (localStorage) ---
+  movies.forEach(m => {
+    const id = m.dataset.id;
+    const reviewList = m.querySelector(".reviews-list");
+    // load existing
+    const saved = JSON.parse(localStorage.getItem(id) || "[]");
+    saved.forEach(r => {
+      const d = document.createElement("div");
+      d.className = "review-item";
+      d.innerHTML = `<strong>${r.name}:</strong> <p>${r.reviewText}</p>`;
+      reviewList.appendChild(d);
+    });
+  });
+
+  document.querySelectorAll(".review-form").forEach(form => {
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      const name = form.querySelector(".review-name").value.trim();
+      const text = form.querySelector(".review-text").value.trim();
+      const id = form.dataset.movie;
+      if (!name || !text) return alert("Enter name & review");
+
+      // append to DOM
+      const reviewList = document.getElementById(`reviews-${id}`);
+      const d = document.createElement("div");
+      d.className = "review-item";
+      d.innerHTML = `<strong>${name}:</strong> <p>${text}</p>`;
+      reviewList.appendChild(d);
+
+      // save
+      const arr = JSON.parse(localStorage.getItem(id) || "[]");
+      arr.push({ name, reviewText: text });
+      localStorage.setItem(id, JSON.stringify(arr));
+
+      form.reset();
+    });
   });
 };
