@@ -21,11 +21,11 @@ Requirement: As a sports watcher, I want to be able to get movie recommendations
 <br>
 Issue: [Link to Issue](https://github.com/Braydew-NAU/SportsWebsite/issues/26)
 <br>
-Pull request: 
+Pull request: [Link to Diego's Pull Request](https://github.com/Braydew-NAU/SportsWebsite/pull/87)
 <br>
 Implemented by: Diego Garcia
 <br>
-Approved by:
+Approved by: Braydon Lamoreaux
 <br>
 Print screen: A print screen that depicts the implemented feature (if applicable)
 
