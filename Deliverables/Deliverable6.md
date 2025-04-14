@@ -68,3 +68,8 @@ The framework used to develop our tests was Jest and JavaScript scripts to autom
 ## Code Quality
 
 ## Lessons Learned
+<br>
+Visual Design: We redesigned the look of the website. Making the website in a brighter color and making the cards of the movies smaller and adding the reviews to each movie instead of the bottom. A better visual design will help produce a better feel for the website. If we were to continue going with this page, we would look into how to always make it look better. 
+<br>
+*2nd Lesson
+<br>
