@@ -66,7 +66,8 @@ The framework used to develop our tests was Jest and JavaScript scripts to autom
 
 ## Lessons Learned
 <br>
-Visual Design: We redesigned the look of the website. Making the website in a brighter color and making the cards of the movies smaller and adding the reviews to each movie instead of the bottom. A better visual design will help produce a better feel for the website. If we were to continue going with this page, we would look into how to always make it look better. 
+Visual Design: We redesigned the look of the website. We made the website a brighter color, made the cards of the movies smaller, and added the reviews to each movie rather than at the bottom. A better visual design will help produce a better feel for the website. If we were to continue going with this page, we would look into how to always make it look more inviting and usable.  
 <br>
-*2nd Lesson
+<br>
+Professional feel: Updating the Visual design helped make the website feel more professional. Changing how the buttons work and how they feel helped the functionality of the website. If we were to continue, we would focus on how "professional" something feels when implementing it and how that could help the entire website as a whole. 
 <br>
