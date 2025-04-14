@@ -27,7 +27,7 @@ Implemented by: Diego Garcia
 <br>
 Approved by: Braydon Lamoreaux
 <br>
-Print screen: A print screen that depicts the implemented feature (if applicable)
+Print screen: ![Movie Suggestions](DeliverableImages/MovieSuggestions.png)
 
 Requirement: As a sport movie fan, I want to be able to filter sport movies by the sport, so that I can watch movies of the sport that I want. Also filter by the movie ratings.
 <br>
