@@ -63,6 +63,8 @@ The framework used to develop our tests was Jest and JavaScript scripts to autom
 
 ## Demo
 
+[Demo Video](https://nau.zoom.us/rec/share/AWayY4Qp5FKg7CKTds-eGB68tMVC5wxFeX2h3zOvsyVTwWH9sdcmBcQ8JVuVLWen.uOGqbx1RRTvER_re?startTime=1744595035000)
+
 ## Code Quality
 
 ## Lessons Learned
