@@ -69,4 +69,7 @@ Our team worked together to maintain code quality through constant collaboration
 
 Visual Design: We redesigned the look of the website. We made the website a brighter color, made the cards of the movies smaller, and added the reviews to each movie rather than at the bottom. A better visual design will help produce a better feel for the website. If we were to continue going with this page, we would look into how to always make it look more inviting and usable.  
 <br>
+<br>
 Professional feel: Updating the Visual design helped make the website feel more professional. Changing how the buttons work and how they feel helped the functionality of the website. If we were to continue, we would focus on how "professional" something feels when implementing it and how that could help the entire website as a whole. 
+<br>
+
