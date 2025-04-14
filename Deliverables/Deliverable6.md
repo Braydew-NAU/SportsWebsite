@@ -67,4 +67,6 @@ The framework used to develop our tests was Jest and JavaScript scripts to autom
 
 ## Code Quality
 
+Our team worked together to maintain code quality through constant collaboration and following good coding practice. We aimed to follow logical naming of functions, classes, divs, ids, etc. as well as organizing the code into a readible and maintainable format. We would review the work of our peers and fix or possibly improve the features implemented. While we didn't follow any specific rules, we stayed mindful of writing clean and keeping everything aligned with the goal structure of the project. 
+
 ## Lessons Learned
