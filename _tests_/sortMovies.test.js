@@ -1,5 +1,4 @@
 const { JSDOM } = require("jsdom");
-const { displayMovies } = require("./movies");
 
 describe("Movie Sorting Functionality", () => {
   let dom, document;
@@ -10,16 +9,16 @@ describe("Movie Sorting Functionality", () => {
       <body>
         <button id="sort-year">Sort by Year</button>
         <button id="sort-rating">Sort by Rating</button>
+        <button id="sort-sport">Sort by Sport</button>
         <div id="movies-list">
-          <div class="movie">
+          <div class="movie" data-year="2001" data-rating="7.5" data-sport="baseball">
             <h3>Movie A</h3>
-            <span class="year">2001</span>
-            <span class="rating">7.5</span>
           </div>
-          <div class="movie">
+          <div class="movie" data-year="1999" data-rating="8.2" data-sport="football">
             <h3>Movie B</h3>
-            <span class="year">1999</span>
-            <span class="rating">8.2</span>
+          </div>
+          <div class="movie" data-year="2003" data-rating="6.9" data-sport="basketball">
+            <h3>Movie C</h3>
           </div>
         </div>
       </body>`
@@ -36,10 +35,11 @@ describe("Movie Sorting Functionality", () => {
 
     setTimeout(() => {
       const movies = document.querySelectorAll(".movie");
-      expect(movies[0].querySelector(".year").textContent).toBe("1999"); // Movie B should come first
-      expect(movies[1].querySelector(".year").textContent).toBe("2001"); // Movie A should come second
+      expect(movies[0].dataset.year).toBe("1999");
+      expect(movies[1].dataset.year).toBe("2001");
+      expect(movies[2].dataset.year).toBe("2003");
       done();
-    }, 100); // Small delay to let sorting take effect
+    }, 100);
   });
 
   test("should sort movies by rating in descending order", (done) => {
@@ -47,8 +47,21 @@ describe("Movie Sorting Functionality", () => {
 
     setTimeout(() => {
       const movies = document.querySelectorAll(".movie");
-      expect(movies[0].querySelector(".rating").textContent).toBe("8.2"); // Movie B should come first
-      expect(movies[1].querySelector(".rating").textContent).toBe("7.5"); // Movie A should come second
+      expect(movies[0].dataset.rating).toBe("8.2");
+      expect(movies[1].dataset.rating).toBe("7.5");
+      expect(movies[2].dataset.rating).toBe("6.9");
+      done();
+    }, 100);
+  });
+
+  test("should sort movies by sport alphabetically", (done) => {
+    document.getElementById("sort-sport").click();
+
+    setTimeout(() => {
+      const movies = document.querySelectorAll(".movie");
+      expect(movies[0].dataset.sport).toBe("baseball");
+      expect(movies[1].dataset.sport).toBe("basketball");
+      expect(movies[2].dataset.sport).toBe("football");
       done();
     }, 100);
   });
