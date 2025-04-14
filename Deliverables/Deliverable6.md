@@ -57,7 +57,6 @@ Print screen: ![Sorting Buttons](DeliverableImages/SortingButtons.png)
 
 The framework used to develop our tests was Jest and JavaScript scripts to automate our testing. The folder on our GitHub where our automated tests are located are in the [tests](https://github.com/Braydew-NAU/SportsWebsite/tree/main/_tests_) folder. There is only one updated test, and that is the [sortMovies test](https://github.com/Braydew-NAU/SportsWebsite/blob/main/_tests_/sortMovies.test.js), this is updated because we fixed the initial 2 sort buttons and as well added a third one that sorts by sports. The class being tested by said test is [sort Movie buttons](https://github.com/Braydew-NAU/SportsWebsite/blob/main/script.js). The output result is [here](https://github.com/Braydew-NAU/SportsWebsite/blob/main/Deliverables/DeliverableImages/Test_Result.png), this is testing all tests again. 
 
-
 ## Demo
 
 [Demo Video](https://nau.zoom.us/rec/share/AWayY4Qp5FKg7CKTds-eGB68tMVC5wxFeX2h3zOvsyVTwWH9sdcmBcQ8JVuVLWen.uOGqbx1RRTvER_re?startTime=1744595035000)
@@ -67,9 +66,10 @@ The framework used to develop our tests was Jest and JavaScript scripts to autom
 Our team worked together to maintain code quality through constant collaboration and following good coding practice. We aimed to follow logical naming of functions, classes, divs, ids, etc. as well as organizing the code into a readible and maintainable format. We would review the work of our peers and fix or possibly improve the features implemented. While we didn't follow any specific rules, we stayed mindful of writing clean and keeping everything aligned with the goal structure of the project. 
 
 ## Lessons Learned
-<br>
+
 Visual Design: We redesigned the look of the website. We made the website a brighter color, made the cards of the movies smaller, and added the reviews to each movie rather than at the bottom. A better visual design will help produce a better feel for the website. If we were to continue going with this page, we would look into how to always make it look more inviting and usable.  
 <br>
 <br>
 Professional feel: Updating the Visual design helped make the website feel more professional. Changing how the buttons work and how they feel helped the functionality of the website. If we were to continue, we would focus on how "professional" something feels when implementing it and how that could help the entire website as a whole. 
 <br>
+
