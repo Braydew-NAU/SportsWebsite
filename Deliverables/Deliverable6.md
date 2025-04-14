@@ -56,7 +56,7 @@ Print screen: ![Sorting Buttons](DeliverableImages/SortingButtons.png)
 ## Tests
 <br>
 
-The framework used to develop our tests was Jest and JavaScript scripts to automate our testing. The folder on our GitHub where our automated tests are located are in the [tests](https://github.com/Braydew-NAU/SportsWebsite/tree/main/_tests_) folder. There is only one updated test, and that is the [sortMovies test](https://github.com/Braydew-NAU/SportsWebsite/blob/main/_tests_/sortMovies.test.js), this is updated because we fixed the initial 2 sort buttons and as well added a third one that sorts by sports. The class being tested by said test is [sort Movie buttons](https://github.com/Braydew-NAU/SportsWebsite/blob/main/script.js). The output result is [here](https://github.com/Braydew-NAU/SportsWebsite/blob/main/Deliverables/DeliverableImages/Test_Result.png), this is testing all 5 tests again. 
+The framework used to develop our tests was Jest and JavaScript scripts to automate our testing. The folder on our GitHub where our automated tests are located are in the [tests](https://github.com/Braydew-NAU/SportsWebsite/tree/main/_tests_) folder. There is only one updated test, and that is the [sortMovies test](https://github.com/Braydew-NAU/SportsWebsite/blob/main/_tests_/sortMovies.test.js), this is updated because we fixed the initial 2 sort buttons and as well added a third one that sorts by sports. The class being tested by said test is [sort Movie buttons](https://github.com/Braydew-NAU/SportsWebsite/blob/main/script.js). The output result is [here](https://github.com/Braydew-NAU/SportsWebsite/blob/main/Deliverables/DeliverableImages/Test_Result.png), this is testing all tests again. 
 
 
 <br>
