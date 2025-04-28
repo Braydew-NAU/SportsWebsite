@@ -1,0 +1,16 @@
+describe('Movie List Page', () => {
+  it('should load the movie list and display movie titles', () => {
+    cy.visit('your-local-or-deployed-site-url'); // Adjust with your site URL
+
+    // Check if the movie list exists
+    cy.get('#movies-list').should('exist');
+
+    // Check that movies are listed
+    cy.get('.movie').should('have.length.greaterThan', 0); // Modify the number based on expected movies
+
+    // Check that each movie has a title
+    cy.get('.movie h3').each(($el) => {
+      cy.wrap($el).should('not.be.empty');
+    });
+  });
+});
