@@ -5,6 +5,8 @@ GameFanHub is a comprehensive sports entertainment platform that provides sports
 
 ## Acceptance Test
 
+We decided to use Cypress for the acceptance testing our website. Here is a link to our [test folder](https://github.com/Braydew-NAU/SportsWebsite/tree/main/_tests_), this contains our previous tests and our new acceptance tests. We decided to test the movie display, movie search, and the movie review features, here is the link to the movie search [test](https://github.com/Braydew-NAU/SportsWebsite/tree/main/_tests_/SearchAcceptanceTest). 
+
 ## Validation
 Script:
 
